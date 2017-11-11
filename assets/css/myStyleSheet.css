@@ -1,0 +1,22 @@
+﻿body {
+    color: #34283D
+}
+
+#main {
+    background-color: #C2B8B2;
+}
+
+
+
+#top #header{
+    background-color: #34283D ;
+    color: #C2B8B2
+} 
+#header h1{
+    color:#C2B8B2;
+}
+
+#brackets, #circle{
+    width:30%;
+    height:30%;
+}
