@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->    
     <link href="assets/css/myStyleSheet.css" rel="stylesheet" />
+    
 </head>
 <body id="top">
 
@@ -54,20 +55,25 @@
             <h2 id="recentWork">Recent Work</h2>
             <div class="row">
                 <article class="6u 12u$(xsmall) work-item">
-                    <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-                    <h3>Magna sed consequat tempus</h3>
-                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    <a href="assets/css/myPortfolioImages/Wardrobepic.jpg" class="image fit thumb"><img src="assets/css/myPortfolioImages/Wardrobepic.jpg" alt="" /></a>
+                    <h2>Wardrobe MVC Project</h2>
+                    <p>Using database-first mvc, this project demonstrates planning and functionality for future adaptations of sorting. The project required navigation through the pages and use of bootstrap elements and personal styling. https://github.com/KaitieFox/Wardrobe </p>
+                    <h3><a href="https://github.com/KaitieFox/Wardrobe" class="icon fa-github">Github</a></h3>
+                    
+
                 </article>
                 <article class="6u$ 12u$(xsmall) work-item">
-                    <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-                    <h3>Ultricies lacinia interdum</h3>
-                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    <a href="assets/css/myPortfolioImages/PlanetPic.jpg" class="image fit thumb"><img id="planet" src="assets/css/myPortfolioImages/PlanetPic.jpg" alt="" /></a>
+                    <h2>Planet Review</h2>
+                    <p>Using MVC and code-first database, create a travel review web application. This travel review spanned across the universe. </p>
+                    <h3><a href="https://github.com/KaitieFox/PlanetReview" class="icon fa-github">Github</a></h3>
                 </article>
                 <article class="6u 12u$(xsmall) work-item">
-                    <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-                    <h3>Tortor metus commodo</h3>
-                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-                </article>
+                    <a href="assets/css/myPortfolioImages/BankAccount.jpg" class="image fit thumb"><img src="assets/css/myPortfolioImages/BankAccount.jpg" alt="" /></a>
+                    <h2>Bank Account</h2>
+                    <p>Using C#, create a console program that takes in bank account information, such as deposits and withdraws. </p>
+                    <h3><a href="https://github.com/KaitieFox/Bank_Account" class="icon fa-github">Github</a></h3>
+                 </article>
                 
             </div>
         </section>
@@ -75,19 +81,21 @@
         <!-- Three -->
         <section id="three">
             <h2 id="contactMe">Get In Touch</h2>
-            <p>Contact me by phone or this form</p>
+            <p>Contact me by phone or this form</p>            
             <div class="row">
                 <div class="8u 12u$(small)">
-                    <form method="post" action="#">
+                    <form method="POST" action="http://formspree.io/kaitiefox@gmail.com">
                         <div class="row uniform 50%">
-                            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                            <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Your Name" /></div>
+                            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email" /></div>
+                            <div class="12u$"><textarea name="message" id="message" placeholder="Your Message" rows="4"></textarea></div>
+                            
                         </div>
+                        <button type="submit">Send</button>
                     </form>
-                    <ul class="actions">
+                    <!--<ul class="actions">
                         <li><input type="submit" value="Send Message" /></li>
-                    </ul>
+                    </ul>-->
                 </div>
                 <div class="4u$ 12u$(small)">
                     <ul class="labeled-icons">
@@ -102,8 +110,8 @@
                             (440) 462-9688
                         </li>
                         <li>
-                            <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                            
+                            <h3><a href="https://github.com/KaitieFox/" class="icon fa-github"> Github</a></h3>
+
                         </li>
                     </ul>
                 </div>
@@ -449,14 +457,19 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
+
     <script src="assets/js/jquery.poptrox.min.js"></script>
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/myjQuery.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     
-    <script src="assets/js/main.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 
+    <script src="assets/js/myJ.js"></script>
+    <script src="assets/js/main.js"></script>
+    
 </body>
 </html>
