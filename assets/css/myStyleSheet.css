@@ -24,3 +24,8 @@
 p{
     font-size: 1.0em;
 }
+
+.image .avatar{
+    border-color:#6D5767;
+    border:30px;
+}
