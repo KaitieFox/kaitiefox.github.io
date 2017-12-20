@@ -27,6 +27,16 @@
     background-position: top left, center center;
 }
 
+#contact {
+    background: url("images/overlay.png"), url('../../images/mypics/spain.JPG');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+    color: white;
+}
+
+
+
 /*Profile Image, from old style*/
 .image.avatar {
     border-radius: 100%;
